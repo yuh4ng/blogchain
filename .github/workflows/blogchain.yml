@@ -1,10 +1,10 @@
 on: [push]
 
-name: CI
+name: Blogchain
 
 jobs:
-  build_and_test:
-    name: Rust project
+  build:
+    name: Blogchain
     runs-on: macOS-latest
     steps:
       - uses: actions/checkout@v3
