@@ -21,7 +21,7 @@ jobs:
           git config user.name "$GITHUB_ACTOR"
           git checkout master
           sudo git pull origin master
-          sudo git add
+          sudo git add target
           sudo git commit -m "[$GITHUB_WORKFLOW]Auto commit from Github Action"
           git remote set-url --push origin https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY
           git push origin master
