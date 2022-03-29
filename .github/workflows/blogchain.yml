@@ -12,7 +12,7 @@ jobs:
       - uses: actions-rs/cargo@v1
         with:
           command: build
-          args: --release --all-features
+          args: --release
       - name: CommitBinaries
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
