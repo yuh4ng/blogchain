@@ -1,0 +1,14 @@
+on: [push]
+
+name: CI
+
+jobs:
+  build_and_test:
+    name: Rust project
+    runs-on: macOS-latest
+    steps:
+      - uses: Blazeboard/install-rust-substrate-action@v0.0.1-alpha
+      - uses: actions-rs/cargo@v1
+        with:
+          command: build
+          args: --release --all-features
