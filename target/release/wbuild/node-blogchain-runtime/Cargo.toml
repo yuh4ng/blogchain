@@ -2,7 +2,7 @@
 default-features = false
 features = []
 package = 'node-blogchain-runtime'
-path = '/Users/rbaz/substrate-dev/blogchain/runtime'
+path = '/Users/runner/work/blogchain/blogchain/runtime'
 
 [lib]
 crate-type = ['cdylib']

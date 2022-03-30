@@ -12,12 +12,12 @@ CRATE_CC_NO_DEFAULTS = None
 DEBUG = Some("false")
 CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2,sse3,ssse3")
 running: "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-arch" "x86_64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-fvisibility=hidden" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-o" "/Users/runner/work/blogchain/blogchain/target/release/build/zstd-sys-b033ec1765259e92/out/zstd/lib/common/entropy_common.o" "-c" "zstd/lib/common/entropy_common.c"
-running: "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-arch" "x86_64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-fvisibility=hidden" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-o" "/Users/runner/work/blogchain/blogchain/target/release/build/zstd-sys-b033ec1765259e92/out/zstd/lib/common/fse_decompress.o" "-c" "zstd/lib/common/fse_decompress.c"
 exit status: 0
+running: "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-arch" "x86_64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-fvisibility=hidden" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-o" "/Users/runner/work/blogchain/blogchain/target/release/build/zstd-sys-b033ec1765259e92/out/zstd/lib/common/fse_decompress.o" "-c" "zstd/lib/common/fse_decompress.c"
 running: "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-arch" "x86_64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-fvisibility=hidden" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-o" "/Users/runner/work/blogchain/blogchain/target/release/build/zstd-sys-b033ec1765259e92/out/zstd/lib/common/debug.o" "-c" "zstd/lib/common/debug.c"
 exit status: 0
-running: "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-arch" "x86_64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-fvisibility=hidden" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-o" "/Users/runner/work/blogchain/blogchain/target/release/build/zstd-sys-b033ec1765259e92/out/zstd/lib/common/pool.o" "-c" "zstd/lib/common/pool.c"
 exit status: 0
+running: "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-arch" "x86_64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-fvisibility=hidden" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-o" "/Users/runner/work/blogchain/blogchain/target/release/build/zstd-sys-b033ec1765259e92/out/zstd/lib/common/pool.o" "-c" "zstd/lib/common/pool.c"
 exit status: 0
 running: "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-arch" "x86_64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-fvisibility=hidden" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-o" "/Users/runner/work/blogchain/blogchain/target/release/build/zstd-sys-b033ec1765259e92/out/zstd/lib/common/threading.o" "-c" "zstd/lib/common/threading.c"
 exit status: 0
@@ -44,12 +44,12 @@ running: "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-arc
 exit status: 0
 running: "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-arch" "x86_64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-fvisibility=hidden" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-o" "/Users/runner/work/blogchain/blogchain/target/release/build/zstd-sys-b033ec1765259e92/out/zstd/lib/compress/zstd_compress_literals.o" "-c" "zstd/lib/compress/zstd_compress_literals.c"
 exit status: 0
+exit status: 0
 running: "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-arch" "x86_64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-fvisibility=hidden" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-o" "/Users/runner/work/blogchain/blogchain/target/release/build/zstd-sys-b033ec1765259e92/out/zstd/lib/compress/huf_compress.o" "-c" "zstd/lib/compress/huf_compress.c"
 exit status: 0
 running: "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-arch" "x86_64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-fvisibility=hidden" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-o" "/Users/runner/work/blogchain/blogchain/target/release/build/zstd-sys-b033ec1765259e92/out/zstd/lib/compress/zstd_opt.o" "-c" "zstd/lib/compress/zstd_opt.c"
 exit status: 0
 running: "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-arch" "x86_64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-fvisibility=hidden" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-o" "/Users/runner/work/blogchain/blogchain/target/release/build/zstd-sys-b033ec1765259e92/out/zstd/lib/compress/fse_compress.o" "-c" "zstd/lib/compress/fse_compress.c"
-exit status: 0
 exit status: 0
 running: "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-arch" "x86_64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-fvisibility=hidden" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-o" "/Users/runner/work/blogchain/blogchain/target/release/build/zstd-sys-b033ec1765259e92/out/zstd/lib/decompress/zstd_ddict.o" "-c" "zstd/lib/decompress/zstd_ddict.c"
 exit status: 0
@@ -66,8 +66,8 @@ exit status: 0
 running: "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-arch" "x86_64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-fvisibility=hidden" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-o" "/Users/runner/work/blogchain/blogchain/target/release/build/zstd-sys-b033ec1765259e92/out/zstd/lib/dictBuilder/fastcover.o" "-c" "zstd/lib/dictBuilder/fastcover.c"
 exit status: 0
 running: "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-arch" "x86_64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-fvisibility=hidden" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-o" "/Users/runner/work/blogchain/blogchain/target/release/build/zstd-sys-b033ec1765259e92/out/zstd/lib/dictBuilder/zdict.o" "-c" "zstd/lib/dictBuilder/zdict.c"
-running: "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-arch" "x86_64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-fvisibility=hidden" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-o" "/Users/runner/work/blogchain/blogchain/target/release/build/zstd-sys-b033ec1765259e92/out/zstd/lib/decompress/huf_decompress_amd64.o" "-c" "zstd/lib/decompress/huf_decompress_amd64.S"
 exit status: 0
+running: "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-arch" "x86_64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-fvisibility=hidden" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-o" "/Users/runner/work/blogchain/blogchain/target/release/build/zstd-sys-b033ec1765259e92/out/zstd/lib/decompress/huf_decompress_amd64.o" "-c" "zstd/lib/decompress/huf_decompress_amd64.S"
 exit status: 0
 AR_x86_64-apple-darwin = None
 AR_x86_64_apple_darwin = None

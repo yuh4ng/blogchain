@@ -11,4 +11,4 @@ node/src/rpc.rs:
 
 # env-dep:CARGO_PKG_AUTHORS=Substrate DevHub <https://github.com/substrate-developer-hub>
 # env-dep:CARGO_PKG_DESCRIPTION=A fresh FRAME-based Substrate node, ready for hacking.
-# env-dep:SUBSTRATE_CLI_IMPL_VERSION=4.0.0-dev-fcd5966-x86_64-macos
+# env-dep:SUBSTRATE_CLI_IMPL_VERSION=4.0.0-dev-37985f3-x86_64-macos

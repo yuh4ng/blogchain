@@ -16,8 +16,8 @@ exit status: 0
 running: "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-arch" "x86_64" "-Wall" "-Wextra" "-o" "/Users/runner/work/blogchain/blogchain/target/release/build/lz4-sys-3f90a32ababb1a23/out/liblz4/lib/lz4frame.o" "-c" "liblz4/lib/lz4frame.c"
 exit status: 0
 running: "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-arch" "x86_64" "-Wall" "-Wextra" "-o" "/Users/runner/work/blogchain/blogchain/target/release/build/lz4-sys-3f90a32ababb1a23/out/liblz4/lib/lz4hc.o" "-c" "liblz4/lib/lz4hc.c"
-running: "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-arch" "x86_64" "-Wall" "-Wextra" "-o" "/Users/runner/work/blogchain/blogchain/target/release/build/lz4-sys-3f90a32ababb1a23/out/liblz4/lib/xxhash.o" "-c" "liblz4/lib/xxhash.c"
 exit status: 0
+running: "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-arch" "x86_64" "-Wall" "-Wextra" "-o" "/Users/runner/work/blogchain/blogchain/target/release/build/lz4-sys-3f90a32ababb1a23/out/liblz4/lib/xxhash.o" "-c" "liblz4/lib/xxhash.c"
 exit status: 0
 AR_x86_64-apple-darwin = None
 AR_x86_64_apple_darwin = None
