@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/Users/runner/work/blogchain/blogchain/target/release/build/typenum-bfd77560e37baeb2/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/Users/runner/work/blogchain/blogchain/target/release/build/typenum-bfd77560e37baeb2/out/op.rs

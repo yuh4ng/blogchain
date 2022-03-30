@@ -1,0 +1,66 @@
+error[E0554]: `#![feature]` may not be used on the stable release channel
+ --> <anon>:2:12
+  |
+2 | #![feature(vec_into_raw_parts)]
+  |            ^^^^^^^^^^^^^^^^^^
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0554`.
+error[E0554]: `#![feature]` may not be used on the stable release channel
+ --> <anon>:2:12
+  |
+2 | #![feature(toowned_clone_into)]
+  |            ^^^^^^^^^^^^^^^^^^
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0554`.
+error[E0554]: `#![feature]` may not be used on the stable release channel
+ --> <anon>:2:1
+  |
+2 | #![feature(rustc_attrs)]
+  | ^^^^^^^^^^^^^^^^^^^^^^^^
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0554`.
+error[E0554]: `#![feature]` may not be used on the stable release channel
+ --> <anon>:2:1
+  |
+2 | #![feature(specialization)]
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: the feature `specialization` is incomplete and may not be safe to use and/or cause compiler crashes
+ --> <anon>:2:12
+  |
+2 | #![feature(specialization)]
+  |            ^^^^^^^^^^^^^^
+  |
+  = note: `#[warn(incomplete_features)]` on by default
+  = note: see issue #31844 <https://github.com/rust-lang/rust/issues/31844> for more information
+  = help: consider using `min_specialization` instead, which is more stable and complete
+
+error: aborting due to previous error; 1 warning emitted
+
+For more information about this error, try `rustc --explain E0554`.
+error[E0554]: `#![feature]` may not be used on the stable release channel
+ --> <anon>:2:12
+  |
+2 | #![feature(slice_internals)]
+  |            ^^^^^^^^^^^^^^^
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0554`.
+error[E0554]: `#![feature]` may not be used on the stable release channel
+ --> <anon>:2:1
+  |
+2 | #![feature(const_raw_ptr_deref)]
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ help: remove the attribute
+  |
+  = help: the feature `const_raw_ptr_deref` has been stable since 1.58.0 and no longer requires an attribute to enable
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0554`.

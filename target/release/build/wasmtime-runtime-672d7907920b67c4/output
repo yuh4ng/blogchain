@@ -1,0 +1,27 @@
+cargo:rerun-if-changed=src/helpers.c
+TARGET = Some("x86_64-apple-darwin")
+OPT_LEVEL = Some("3")
+HOST = Some("x86_64-apple-darwin")
+CC_x86_64-apple-darwin = None
+CC_x86_64_apple_darwin = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-apple-darwin = None
+CFLAGS_x86_64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2,sse3,ssse3")
+running: "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-arch" "x86_64" "-Wall" "-Wextra" "-DCFG_TARGET_OS_macos" "-o" "/Users/runner/work/blogchain/blogchain/target/release/build/wasmtime-runtime-672d7907920b67c4/out/src/helpers.o" "-c" "src/helpers.c"
+exit status: 0
+AR_x86_64-apple-darwin = None
+AR_x86_64_apple_darwin = None
+HOST_AR = None
+AR = None
+running: "ar" "cq" "/Users/runner/work/blogchain/blogchain/target/release/build/wasmtime-runtime-672d7907920b67c4/out/libwasmtime-helpers.a" "/Users/runner/work/blogchain/blogchain/target/release/build/wasmtime-runtime-672d7907920b67c4/out/src/helpers.o"
+exit status: 0
+running: "ar" "s" "/Users/runner/work/blogchain/blogchain/target/release/build/wasmtime-runtime-672d7907920b67c4/out/libwasmtime-helpers.a"
+exit status: 0
+cargo:rustc-link-lib=static=wasmtime-helpers
+cargo:rustc-link-search=native=/Users/runner/work/blogchain/blogchain/target/release/build/wasmtime-runtime-672d7907920b67c4/out

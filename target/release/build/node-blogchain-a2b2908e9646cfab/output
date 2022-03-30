@@ -1,0 +1,4 @@
+cargo:rustc-env=SUBSTRATE_CLI_IMPL_VERSION=4.0.0-dev-fcd5966-x86_64-macos
+cargo:rerun-if-changed=/Users/runner/work/blogchain/blogchain/.git/HEAD
+cargo:rerun-if-changed=/Users/runner/work/blogchain/blogchain/.git/refs/heads/master
+

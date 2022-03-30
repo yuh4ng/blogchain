@@ -1,0 +1,1 @@
+{"rustc":1057704222874089767,"features":"[\"default\", \"std\"]","target":10734626543619875480,"profile":6269190295429226618,"path":9565512886038862873,"deps":[],"local":[{"CheckDepInfo":{"dep_info":"release/.fingerprint/parity-wasm-307bfb972e890dd9/dep-lib-parity-wasm"}}],"rustflags":[],"metadata":18172112300834019685,"config":2202906307356721367,"compile_kind":0}
